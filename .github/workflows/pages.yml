@@ -21,9 +21,6 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Prepare packaged documentation source
-        if: hashFiles('build.py') == '' && hashFiles('source.zip') != ''
-        run: python3 -m zipfile -e source.zip .
       - name: Validate site and expansion
         run: python3 check.py
       - name: Configure Pages
