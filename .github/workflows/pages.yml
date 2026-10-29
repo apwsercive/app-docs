@@ -1,0 +1,62 @@
+name: Publish documents to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Prepare packaged documentation source
+        if: hashFiles('build.py') == '' && hashFiles('source.zip') != ''
+        run: python3 -m zipfile -e source.zip .
+      - name: Validate site and expansion
+        run: python3 check.py
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build documents
+        env:
+          PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          DOCS_RELEASE: ${{ vars.DOCS_RELEASE }}
+        run: |
+          if [ "$DOCS_RELEASE" = "true" ]; then
+            python3 build.py --release --base-path "$PAGES_BASE_PATH"
+          else
+            python3 build.py --base-path "$PAGES_BASE_PATH"
+          fi
+      - name: Upload website only
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
