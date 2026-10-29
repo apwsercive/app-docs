@@ -20,7 +20,7 @@
       "pending": "待确认",
       "documents": "文档",
       "apps": "应用",
-      "intro": "选择应用和语言，查看隐私协议与服务条款。"
+      "intro": "选择应用和语言，查看隐私协议、服务条款与技术支持。"
     },
     "en": {
       "label": "English",
@@ -37,7 +37,7 @@
       "pending": "Awaiting confirmation",
       "documents": "Documents",
       "apps": "Apps",
-      "intro": "Choose an app and language to read its privacy policy and terms."
+      "intro": "Choose an app and language to read its privacy policy, terms, and technical support information."
     }
   },
   "apps": {
@@ -48,7 +48,8 @@
       },
       "documents": [
         "privacy",
-        "terms"
+        "terms",
+        "support"
       ]
     }
   }
