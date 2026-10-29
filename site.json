@@ -2,7 +2,7 @@
   "title": "App 文档 / App documents",
   "publisher": {
     "name": null,
-    "email": null
+    "email": "apw_service@163.com"
   },
   "locales": {
     "zh-Hans": {
@@ -14,7 +14,7 @@
       "updated": "更新日期",
       "effective": "生效日期",
       "version": "版本",
-      "draft": "文档草稿：运营主体、联系邮箱和生效信息尚待确认，请勿用于正式上架。",
+      "draft": "文档草稿：计划于 2026 年 11 月 3 日生效，尚未正式发布。",
       "contact": "联系我们",
       "operator": "运营主体",
       "pending": "待确认",
@@ -31,7 +31,7 @@
       "updated": "Updated",
       "effective": "Effective",
       "version": "Version",
-      "draft": "Draft: operator identity, contact email, and effective details await confirmation. Not ready for App Store submission.",
+      "draft": "Draft: scheduled to take effect on November 3, 2026; not yet formally published.",
       "contact": "Contact",
       "operator": "Operator",
       "pending": "Awaiting confirmation",

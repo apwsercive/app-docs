@@ -101,7 +101,7 @@ def build(base_path="", output=None, release=False):
 <body><a class="skip" href="#main">{escape(t['skip'])}</a>
 <header><nav aria-label="{escape(t['home'])}">{link(locale+'/', t['home'], 'class="brand"')}{nav}</nav></header>
 <main id="main" tabindex="-1">{body}</main>
-<footer><p>{escape(t['operator'])}: {escape(publisher.get('name') or t['pending'])}</p>
+<footer>{('<p>' + escape(t['operator']) + ': ' + escape(publisher['name']) + '</p>') if publisher.get('name') else ''}
 <nav aria-label="External policies"><a href="https://www.apple.com/legal/privacy/">Apple Privacy</a>
 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy</a>
 <a href="https://support.apple.com/118428">Apple Subscriptions</a></nav></footer></body></html>'''
@@ -156,7 +156,8 @@ def build(base_path="", output=None, release=False):
             body += f'<section id="{section["id"]}"><h2>{escape(section["title"])}</h2>'
             body += section.get("html", "") + "".join(paragraph(p) for p in section.get("paragraphs", []))
             if section["id"] == "contact":
-                body += paragraph(t["operator"] + ": " + (publisher.get("name") or t["pending"]))
+                if publisher.get("name"):
+                    body += paragraph(t["operator"] + ": " + publisher["name"])
                 if publisher.get("email"):
                     email = publisher["email"]
                     body += f'<p><a href="mailto:{quote(email, safe="@.+")}">{escape(email)}</a></p>'

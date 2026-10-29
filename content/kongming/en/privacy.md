@@ -1,7 +1,7 @@
 ---
 version: "1.0"
 updated: 2026-10-29
-effective: 
+effective: 2026-11-03
 status: draft
 ---
 
@@ -9,17 +9,17 @@ status: draft
 
 ## Scope {#section-1}
 
-This Privacy Policy covers the Kongming Tools iOS app, including calculators, scanning, image and document conversion, date tools, watermark photography, and membership purchases and restoration. It describes the current version. See the contact section for the operator and contact details.
+This Privacy Policy covers the Kongming Tools iOS app, including calculators, scanning, image and document conversion, date tools, watermark photography, and membership purchases and restoration. It describes the current version. See the contact section for contact details.
 
 ## On-device processing and collection {#section-2}
 
-No app account is required. Calculator inputs, QR and barcode contents, selected images and files, recognized text, document scans, and generated images and PDFs are processed on your device. The app does not upload this content to developer servers.
+No app account is required. Calculator inputs, QR contents (including Wi-Fi names and passwords), barcode contents, selected images and files, recognized text, document scans, and generated images, GIFs, PDFs, Office documents, TXT files, and ZIP archives are processed on your device. The app does not upload this content to developer servers.
 
 The current version has no developer-operated content backend, advertising, behavioral analytics, or cross-app tracking SDKs. It does not collect an advertising identifier for tracking. Apple services and external services you choose may use the network, as described below.
 
 ## Information stored on your device {#section-3}
 
-Favorites, tool and group order, recent tools, countdowns, language, theme, appearance, haptics, launch preferences, and feedback drafts are stored locally. The app also records the first-launch date to determine when to show a startup membership offer. Watermark templates, text, styles, and colors are also stored locally.
+Favorites, tool visibility, tool and group order, recent tools, countdowns, language, theme, appearance, haptics, launch preferences, and feedback drafts are stored locally. The app also records the first-launch date to determine when to show a startup membership offer. Watermark templates, text, styles, and colors are also stored locally.
 
 Imported images, previews, and exported files may remain in the app sandbox or temporary directory. The system may remove temporary files; closing a screen does not guarantee immediate deletion. Save important exports separately. Device backups, restoration, and cloud file providers depend on your system settings and the relevant services.
 
@@ -39,7 +39,7 @@ Sharing: content leaves the app only through actions you choose, such as system 
 
 When you enter the watermark camera, the app requests location permission while in use. If authorized, it obtains the current location and uses Apple MapKit or Core Location reverse geocoding. This may send location and request-related information to Apple to resolve a place name, under Apple’s service policies. The app does not continuously track location in the background or upload it to developer servers.
 
-You can deny or revoke location permission in iOS Settings. Photos omit location if permission is denied or lookup fails, and photography and saving remain available. Templates can render time, a place name, or coordinates as visible text. Exported watermark JPEGs omit original EXIF/GPS metadata, but visible location text may still reveal your location. Review it before sharing.
+You can deny or revoke location permission in iOS Settings. Photos omit location if permission is denied or lookup fails, and photography and saving remain available. A location is added to a photo only when the template enables it and a current location is available; coordinates may be used if no address is returned. Templates can render time, a place name, or coordinates as visible text. Exported watermark JPEGs omit original EXIF/GPS metadata, but visible location text may still reveal your location. Review it before sharing.
 
 ## Membership, payment, and Apple services {#section-5}
 
@@ -67,4 +67,12 @@ We update this policy and its date when functionality or data practices change. 
 
 ## Feedback and contact information {#feedback}
 
-In-app feedback remains a local draft until you choose a sharing destination and send it. If you email us, we receive your email address, message, and attachments to handle your request, troubleshoot, and maintain legally necessary records; we delete or anonymize them when no longer needed. Do not send passwords, payment details, or unnecessary sensitive information. Contact us to request access, correction, or deletion of information actually held by the developer. We verify and handle requests under applicable law.
+In-app feedback remains a local draft until you choose a sharing destination and send it. If you email us, we receive your email address, message, and attachments to handle your request, troubleshoot, and maintain legally necessary records; we delete or anonymize them when no longer needed. Do not send passwords, payment details, or unnecessary sensitive information. Email [apw_service@163.com](mailto:apw_service@163.com) to request access, correction, or deletion of information actually held by the developer. We verify and handle requests under applicable law.
+
+## Document conversion and sensitive content {#conversion}
+
+Document conversion includes images, Word, Excel, PowerPoint, and Pages to PDF, and PDF to a PNG image ZIP, text-based DOCX, text-based XLSX, image-based PPTX, or TXT. Text extraction may use on-device OCR. The app reads selected source files and creates previews and outputs on your device without a developer-operated online conversion server. Office previews use a nonpersistent WebKit data store and block navigation to remote websites. Cloud file providers may still download selected files over the network.
+
+Wi-Fi QR codes encode the network name and password you enter. Anyone who obtains the code may read them. Recognized text, documents, faces in photos, visible watermarks, and filenames may also contain personal or confidential information. Changing formats or removing image metadata does not anonymize content. Review it before copying, saving, or sharing.
+
+See the [Apple Privacy Policy](https://www.apple.com/legal/privacy/) and [App Store & Privacy](https://www.apple.com/legal/privacy/data/en/appstore/) for Apple's data practices.

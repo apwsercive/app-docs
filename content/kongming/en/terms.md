@@ -1,7 +1,7 @@
 ---
 version: "1.0"
 updated: 2026-10-29
-effective: 
+effective: 2026-11-03
 status: draft
 ---
 
@@ -9,11 +9,11 @@ status: draft
 
 ## Acceptance and scope {#section-1}
 
-These Terms apply to the Kongming Tools iOS app. See the contact section for the operator and contact details. Read these Terms and the Privacy Policy before using the app. If you disagree, stop using the relevant services. These Terms do not remove consumer rights provided by applicable law.
+These Terms apply to the Kongming Tools iOS app. See the contact section for contact details. Read these Terms and the Privacy Policy before using the app. If you disagree, stop using the relevant services. These Terms do not remove consumer rights provided by applicable law.
 
 ## Tools and license {#section-2}
 
-The app offers calculators, QR scanning and generation, text recognition, image editing, date calculations, unit conversion, and document conversion. You receive a license to use the app on supported Apple devices you own or control, subject to App Store usage rules.
+The app offers mortgage, scientific, discount, bill-splitting, and deposit calculators; QR and barcode recognition; text, URL, and Wi-Fi QR generation; OCR; scanning to PDF; image compression, conversion, and editing; Live Photo to GIF; a watermark camera; date, age, and countdown tools; unit and numeral-base conversion; document conversion; and search, favorites, and local tool management. You receive a license to use the app on supported Apple devices you own or control, subject to App Store usage rules.
 
 You must have the right to process imported images, documents, and other content and protect personal or confidential information. Do not use the app for unlawful activity, infringement, or interference with system security. Rights in your original content remain with you or the relevant rights holder.
 
@@ -37,11 +37,11 @@ Apple processes payment through your App Store account. Auto-renewable subscript
 
 Manage or cancel subscriptions in iOS Settings under your Apple account’s Subscriptions section. Cancellation generally stops future renewal; access for the paid period follows Apple’s rules. Uninstalling the app does not cancel a subscription. Restore Purchases verifies valid entitlements using the same Apple account.
 
-Purchases, refunds, trials if offered, Family Sharing if offered, and billing disputes depend on Apple’s applicable rules and product configuration. Request eligible refunds at reportaproblem.apple.com. These Terms do not limit statutory refund or consumer-remedy rights.
+Purchases, refunds, trials if offered, Family Sharing if offered, and billing disputes depend on Apple’s applicable rules and product configuration. Request eligible refunds through [Apple’s refund page](https://reportaproblem.apple.com/). These Terms do not limit statutory refund or consumer-remedy rights.
 
 ## Privacy, external services, and open source {#section-6}
 
-See the Privacy Policy for data handling. External services are involved when you choose to share, open a link, or use Apple services such as purchasing. Websites, file providers, and recipients have their own terms; the developer does not control their content or availability.
+See the Privacy Policy for data handling. Location and place-name lookup, App Store purchases and restoration, cloud photo or file providers, policy websites, and sharing or opening links may involve Apple or other external services. Websites, file providers, and recipients have their own terms; the developer does not control their content or availability.
 
 Image editing uses ZLImageEditor. Its license is available in the app’s About section. Apple’s App Store rules and applicable end-user license agreement continue to apply within their scope.
 
@@ -49,7 +49,11 @@ Image editing uses ZLImageEditor. Its license is available in the app’s About 
 
 We reasonably maintain and improve the app, but operating-system changes, device capabilities, permissions, available storage, and third-party services can affect functionality. Recognition and conversion results are not guaranteed to be accurate or available on every device. Keep backups of important material.
 
-Responsibility is determined by applicable law. Nothing in these Terms excludes or limits liability that cannot legally be excluded or limited, or reduces your statutory rights.
+**Limitation of liability: to the extent permitted by applicable law, the app is provided with its current features and availability. We do not guarantee fully accurate calculations, recognition, location, or conversions, uninterrupted availability, or fitness for a particular purpose. Do not use outputs as the sole basis for significant financial, legal, or other important decisions.**
+
+Responsibility for consequences of incorrect inputs, unverified outputs, missing source backups, or voluntary sharing, and for losses involving third-party services, device failure, or force majeure, depends on fault, causation, and applicable law. To the extent permitted by law, we are not liable for losses not caused by our fault, or for indirect losses or lost anticipated profits that could not reasonably have been foreseen.
+
+**These limitations do not apply to liability that cannot legally be excluded or limited, including personal injury and property losses caused by intentional misconduct or gross negligence where applicable law so provides. They do not affect statutory rights to refunds, compensation, or other consumer remedies.**
 
 ## Changes, discontinuation, and disputes {#section-8}
 
@@ -60,3 +64,13 @@ Please first describe issues through the contact channel below. Unresolved matte
 ## Translations {#translations}
 
 The Chinese and English versions are intended to have the same meaning. Please report translation differences using the contact email. Interpretation and resolution remain subject to applicable law and mandatory consumer rights.
+
+## Document conversion and sharing precautions {#conversion}
+
+Conversion of images, Word, Excel, PowerPoint, and Pages to PDF depends on system rendering and preview support. PDF to Word or Excel primarily extracts text, PDF to PowerPoint creates page images, and PNG exports are packaged in a ZIP; TXT export is also available. Scanned pages may use OCR. Conversion does not guarantee reconstruction of original layouts, table structures, formulas, editable graphics, or animations. Encrypted, damaged, incompatible files or files beyond device capacity may fail. Review previews and keep source files.
+
+Live Photo to GIF does not retain audio, and dimensions, frame rate, and colors may change. Others can read the network name and password in a Wi-Fi QR code, and scanned URLs may lead to external sites. Check the content and recipient before opening or sharing.
+
+## Contact us {#support}
+
+For questions about features, purchases, privacy, or these Terms, email [apw_service@163.com](mailto:apw_service@163.com). In-app Share Feedback requires you to choose a recipient and send it; saving a draft does not submit it. Describe the issue and provide only necessary information.
