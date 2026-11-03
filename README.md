@@ -1,6 +1,6 @@
 # 多 App 文档中心（GitHub Pages）
 
-独立的静态文档站源码，使用 Python 3.9+；Markdown 解析器已固定版本随站点放在 `vendor/`，无需额外安装或联网构建。第三方许可证见 [THIRD_PARTY.md](THIRD_PARTY.md)。中英文协议按孔明工具当前代码整理，联系邮箱为 apw_service@163.com；协议版本为 1.0，计划生效日期为 2026-11-03，按要求不展示运营主体；主要发行地区待确认。当前内容标注草稿，不应作为正式上架协议。
+独立的静态文档站源码，使用 Python 3.9+；Markdown 解析器已固定版本随站点放在 `vendor/`，无需额外安装或联网构建。第三方许可证见 [THIRD_PARTY.md](THIRD_PARTY.md)。中英文协议按孔明工具当前代码整理，联系邮箱为 apw_service@163.com；协议版本为 1.0，不展示生效日期，按要求不展示运营主体；主要发行地区待确认。当前内容标注草稿，不应作为正式上架协议。
 
 此目录可直接复制为独立 GitHub 仓库的根目录，建议仓库名 `app-docs`。不要把 iOS 工程或其他 App 的私有源码上传到公开协议仓库。原 `sites/kongming-legal/` 草稿保持原样。
 
@@ -37,10 +37,10 @@ python3 -m http.server 8000 --directory dist
 ## 首次发布
 
 1. 确认 `site.json` 的 `publisher.name` 和 `publisher.email`；这些信息会公开展示。当前没有拿 GitHub 个人资料替代运营主体确认。
-2. 审阅四份 `content/kongming/{zh-Hans,en}/{privacy,terms}.md`，确认产品描述、会员权益、发行地区相关要求；设置真实的 `effective` 生效日期、`updated` 更新日期，并将 `status` 改为 `published`。不要仅为让流水线通过而改状态。
+2. 审阅四份 `content/kongming/{zh-Hans,en}/{privacy,terms}.md`，确认产品描述、会员权益、发行地区相关要求；设置真实的 `updated` 更新日期，并将 `status` 改为 `published`。不要仅为让流水线通过而改状态。
 3. 将本目录内容（包含 `.github/` 和 `.gitignore`，不含 `dist/`）放到目标文档仓库根目录，默认分支为 `main`；其他默认分支需同步修改 workflow。
 4. 仓库 Settings → Pages → Build and deployment → Source 选择 **GitHub Actions**，再推送 `main` 或手动运行工作流。
-5. 工作流先执行链接与扩展性检查，读取 Pages 实际 `base_path`，仅上传 `dist/`。默认允许部署明确标注草稿、禁止搜索引擎索引的预览页面；预览不能作为正式上架协议。正式发布时，在仓库 Settings → Secrets and variables → Actions → Variables 设置 `DOCS_RELEASE=true`，启用严格发布检查；未完成署名、生效日期和草稿确认时，正式构建会明确失败。即使没有启用此变量，标为 `published` 的文档也必须补齐署名、邮箱和生效日期。
+5. 工作流先执行链接与扩展性检查，读取 Pages 实际 `base_path`，仅上传 `dist/`。默认允许部署明确标注草稿、禁止搜索引擎索引的预览页面；预览不能作为正式上架协议。正式发布时，在仓库 Settings → Secrets and variables → Actions → Variables 设置 `DOCS_RELEASE=true`，启用严格发布检查；未完成署名、更新日期和草稿确认时，正式构建会明确失败。即使没有启用此变量，标为 `published` 的文档也必须补齐署名、邮箱和更新日期。
 6. 检查 Actions 成功、部署 URL 可匿名访问、四个协议 URL 返回成功且页面语言正确，再填写 App Store Connect 与 App 内入口。此次未更改 App 中的 `PolicyView`。
 
 免费方案通常选择公开文档仓库；私有仓库能否启用 Pages 取决于 GitHub 套餐。仓库可见性与网站访问权限需要分别确认。
@@ -70,7 +70,7 @@ python3 -m http.server 8000 --directory dist
 [隐私协议](privacy.md)
 ```
 
-只有一个 `# 标题` 就能生成草稿页面，地址为 `/kongming/zh-Hans/guide/`。没有填写日期时显示“待确认”，不会凭空生成生效日期。暂不扩展表格、脚注等非 CommonMark 语法；原生 HTML 按文本显示，不执行脚本。图片及其他静态资源不在此次自动收集范围。
+只有一个 `# 标题` 就能生成草稿页面，地址为 `/kongming/zh-Hans/guide/`。没有填写更新日期时显示“待确认”；未填写生效日期时不展示该项。暂不扩展表格、脚注等非 CommonMark 语法；原生 HTML 按文本显示，不执行脚本。图片及其他静态资源不在此次自动收集范围。
 
 正式协议可以在文件最前面加一段简单的元数据（只接受以下平铺字段，不是完整 YAML）：
 
@@ -89,7 +89,7 @@ status: draft
 协议正文……
 ```
 
-`effective` 留空表示尚未生效，`status` 支持 `draft` / `published`。正式发布仍要求完整的主体、邮箱和日期。标题也可以使用元数据 `title:`；如同时写 `# 标题`，两处需一致。
+`effective` 为可选字段，省略或留空时不展示生效日期，`status` 支持 `draft` / `published`。正式发布仍要求完整的主体、邮箱和日期。标题也可以使用元数据 `title:`；如同时写 `# 标题`，两处需一致。
 
 `##` 自动生成章节目录；`{#on-device}` 是可选的稳定章节 ID。迁移的四份协议保留了原有 ID，请勿随意改动。文章之间可直接写 `[服务条款](terms.md)`，跨语言可以写 `[English](../en/privacy.md#location)`，构建时会转换为正确的线上网址（含仓库子路径）。
 

@@ -62,8 +62,8 @@ def build(base_path="", output=None, release=False):
                     if doc["status"] not in ("draft", "published"):
                         raise ValueError(f"Invalid status: {source}")
                     if doc["status"] == "published" or release:
-                        if not all((publisher.get("name"), publisher.get("email"), doc["effective"], doc["updated"])) or doc["status"] != "published":
-                            raise ValueError(f"Release needs operator, email, effective date and published status: {source}")
+                        if not all((publisher.get("name"), publisher.get("email"), doc["updated"])) or doc["status"] != "published":
+                            raise ValueError(f"Release needs operator, email, updated date and published status: {source}")
                     ids = [s["id"] for s in doc["sections"]]
                     if len(ids) != len(set(ids)) or "contact" in ids or "main" in ids:
                         raise ValueError(f"Duplicate or reserved section IDs: {source}")
@@ -143,7 +143,11 @@ def build(base_path="", output=None, release=False):
         nav = language_nav(paths, locale)
         body = '<nav class="breadcrumb" aria-label="Breadcrumb">' + link(f"{app_id}/{locale}/", app["names"][locale]) + '</nav>'
         body += f'<h1>{escape(doc["title"])}</h1><dl class="metadata">'
-        for label, value in ((t["updated"],doc["updated"] or t["pending"]),(t["effective"],doc["effective"] or t["pending"]),(t["version"],doc["version"])):
+        metadata = [(t["updated"], doc["updated"] or t["pending"])]
+        if doc["effective"]:
+            metadata.append((t["effective"], doc["effective"]))
+        metadata.append((t["version"], doc["version"]))
+        for label, value in metadata:
             body += f'<div><dt>{escape(label)}</dt><dd>{escape(value)}</dd></div>'
         body += '</dl>'
         if doc["status"] == "draft":
