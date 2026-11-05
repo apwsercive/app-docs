@@ -12,7 +12,7 @@ YiSense cung cấp học Kinh Dịch, suy ngẫm hằng ngày, lập quẻ, ghi 
 
 ## Ghi chép và ảnh {#2}
 
-Bạn tự nhập tên, bản thân/người khác, câu hỏi, cảm nhận, phân loại, lời giải của con người, phản hồi, trạng thái ứng nghiệm, thẻ, ghi chú và ảnh. Hãy có quyền ghi thông tin của người khác; trạng thái ứng nghiệm do bạn chọn, không phải kết luận của ứng dụng. Máy ảnh chỉ dùng khi bạn chủ động chụp và cấp quyền. Bộ chọn ảnh chỉ cung cấp ảnh đã chọn. Ảnh được thu nhỏ cạnh dài tối đa1600 pixel và mã hóa lại, không sao chép EXIF gốc; nội dung riêng tư trong ảnh vẫn có thể còn.
+Bạn tự nhập tên, bản thân/người khác, câu hỏi, cảm nhận, phân loại, lời giải của con người, phản hồi, trạng thái ứng nghiệm, thẻ, ghi chú và ảnh. Hãy có quyền ghi thông tin của người khác; trạng thái ứng nghiệm do bạn chọn, không phải kết luận của ứng dụng. Máy ảnh chỉ dùng khi bạn chủ động chụp và cấp quyền. Bộ chọn ảnh chỉ cung cấp ảnh đã chọn. Ảnh được thu nhỏ cạnh dài tối đa 1600 pixel và chuyển mã ảnh, không sao chép EXIF gốc; nội dung riêng tư trong ảnh vẫn có thể còn.
 
 ## iCloud {#3}
 

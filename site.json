@@ -124,22 +124,22 @@
       "apps": "แอป",
       "intro": "เลือกแอปและภาษาเพื่ออ่านเอกสาร"
     },
-    "en-SG": {
-      "label": "English (Singapore)",
+    "zh-Hant": {
+      "label": "繁體中文",
       "dir": "ltr",
-      "home": "Document center",
-      "skip": "Skip to content",
-      "contents": "Contents",
-      "updated": "Updated",
-      "effective": "Effective",
-      "version": "Version",
-      "draft": "Draft: not yet formally published.",
-      "contact": "Contact",
-      "operator": "Operator",
-      "pending": "Awaiting confirmation",
-      "documents": "Documents",
-      "apps": "Apps",
-      "intro": "Choose an app and language to read its privacy policy, terms, and technical support information."
+      "home": "文件中心",
+      "skip": "跳至正文",
+      "contents": "目錄",
+      "updated": "更新日期",
+      "effective": "生效日期",
+      "version": "版本",
+      "draft": "文件草稿：尚未正式發佈。",
+      "contact": "聯繫我們",
+      "operator": "營運主體",
+      "pending": "待確認",
+      "documents": "文件",
+      "apps": "應用",
+      "intro": "選擇 App 和語言，查看隱私權政策、服務條款與技術支援。"
     }
   },
   "apps": {
@@ -161,9 +161,9 @@
         "ja": "YiSense",
         "ko": "YiSense",
         "vi": "YiSense",
-        "en-SG": "YiSense",
         "ms": "YiSense",
-        "th": "YiSense"
+        "th": "YiSense",
+        "zh-Hant": "知心觀易"
       },
       "documents": [
         "privacy",

@@ -12,8 +12,8 @@ Email [apw_service@163.com](mailto:apw_service@163.com) kèm phiên bản ứng 
 
 ## Đồng bộ, ảnh và xuất {#2}
 
-Kiểm tra đăng nhập iCloud, mạng, dung lượng và cài đặt. Sao lưu trước khi xóa hoặc cài lại. Mỗi bản ghi tối đa8 ảnh; kiểm tra quyền máy ảnh và tải ảnh đã chọn từ đám mây. JSON chứa văn bản và ảnh đính kèm mã hóa Base64; đây không phải mã hóa bảo mật. Xuất không có nghĩa hỗ trợ nhập khôi phục hoặc sao lưu ảnh gốc. Xóa bản ghi cũng xóa ảnh đính kèm và truyền qua đồng bộ.
+Kiểm tra đăng nhập iCloud, mạng, dung lượng và cài đặt. Sao lưu trước khi xóa hoặc cài lại. Mỗi bản ghi tối đa 8 ảnh; kiểm tra quyền máy ảnh và tải ảnh đã chọn từ đám mây. JSON chứa văn bản và ảnh đính kèm mã hóa Base64; đây không phải mã hóa bảo mật. Xuất không có nghĩa hỗ trợ nhập khôi phục hoặc sao lưu ảnh gốc. Xóa bản ghi cũng xóa ảnh đính kèm và truyền qua đồng bộ.
 
 ## Lập quẻ và ngôn ngữ {#3}
 
-Kiểm tra cách lập quẻ, ngày giờ, múi giờ. Nhập ba số nguyên1–1.000.000; để trống cả ba thì tạo ngẫu nhiên1–999. Cổ văn giữ tiếng Trung; bản dịch tài liệu không đồng nghĩa giao diện đã hỗ trợ ngôn ngữ đó. Nếu thiếu hội viên, khôi phục mua bằng tài khoản Apple đã mua. Hủy riêng trong mục Đăng ký của Apple. Gửi sửa nguồn, quy tắc hoặc bản dịch qua email.
+Kiểm tra cách lập quẻ, ngày giờ, múi giờ. Nhập ba số nguyên 1–1.000.000; để trống cả ba thì tạo ngẫu nhiên 1–999. Cổ văn giữ tiếng Trung; giao diện hỗ trợ tiếng Trung giản thể và phồn thể, Anh, Nhật, Hàn, Việt, Mã Lai và Thái. Nếu thiếu hội viên, khôi phục mua bằng tài khoản Apple đã mua. Hủy riêng trong mục Đăng ký của Apple. Gửi sửa nguồn, quy tắc hoặc bản dịch qua email.

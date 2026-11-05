@@ -133,14 +133,14 @@ YiSense（知心观易）已登记到文档站，四类文档为 `privacy`（隐
 | 语言标记 | 语言／主要受众 |
 | --- | --- |
 | zh-Hans | 简体中文 |
+| zh-Hant | 繁體中文 |
 | en | English |
 | ja | 日本語／日本 |
 | ko | 한국어／韩国 |
 | vi | Tiếng Việt／越南 |
-| en-SG | English (Singapore)／新加坡英语 |
 | ms | Bahasa Melayu／马来西亚马来语 |
 | th | ไทย／泰国 |
 
-每种语言均有实际文档，不使用静默回退。新加坡沿用完整英文语义，马来西亚使用马来语；语言选择不是针对各国家法律的独立审查，也不代表 App 界面已新增这些语言。古籍原文仍保留中文。版本为1.0，不设置或展示生效日期，当前保持草稿状态。
+每种语言均有实际文档，不使用静默回退。新加坡使用通用英文 `en`，不另设地区版本；马来西亚使用马来语。语言选择不是针对各国家法律的独立审查。App 界面现已支持上述八种语言。古籍原文仍保留中文。版本为1.0，不设置或展示生效日期，当前保持草稿状态。
 
 内容核对自 YiSense 的 README、Casting.swift、CastingPage.swift、TraditionalTime.swift、DailyTheme.swift、Classics.json、Persistence.swift、SettingsView.swift 和图片处理代码。起卦规则为当前代码约定；文档覆盖 CloudKit 私人数据库同步、照片附件、含 Base64 图片的 JSON 导出、删除传播与邮件联系。未修改 YiSense 工程内离线协议副本或 App 的语言配置。

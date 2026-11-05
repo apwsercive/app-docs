@@ -24,7 +24,7 @@ iCloud phụ thuộc Apple; không bảo đảm đồng bộ tức thì hoặc k
 
 ## Hạn mức và mua hội viên {#current-features}
 
-Theo ngày lịch địa phương của thiết bị: lập quẻ3 lượt/ngày, tạo hoặc sửa suy ngẫm tổng1 lượt/ngày, lưu bản ghi quẻ2 lượt và sửa1 lượt/ngày. Nền chia sẻ tùy chọn cần hội viên. Việc tính lượt hủy hoặc lỗi tùy luồng thao tác; xem thông báo trong ứng dụng. Hội viên hợp lệ bỏ các giới hạn này và dùng nền tùy chọn theo mô tả lúc mua.
+Hạn mức miễn phí được tính riêng theo từng thao tác và ngày địa phương của thiết bị: mỗi ngày được lập quẻ riêng 3 lần, mở trang chiêm nghiệm 1 lần, lưu 2 bản ghi quẻ mới và sửa bản ghi quẻ 1 lần. Lập quẻ trong màn hình tạo bản ghi mới không giới hạn và không trừ lượt lập quẻ riêng. Bạn được xem thử miễn phí mọi nền chia sẻ. Xuất hoặc chia sẻ với nền gốc là miễn phí; dùng nền tùy chỉnh cần có hội viên. Việc tính lượt khi hủy hoặc gặp lỗi tùy thuộc quy trình thao tác; hãy xem thông báo trong ứng dụng. Hội viên còn hiệu lực được gỡ các giới hạn này; quyền lợi cụ thể theo mô tả lúc mua.
 
 Có thể có gói tháng, năm (kể cả năm ưu đãi) tự gia hạn và gói trọn đời mua một lần. Giá, tiền tệ, điều kiện và gia hạn theo màn hình ứng dụng và xác nhận Apple. Trọn đời không bảo đảm hoạt động vĩnh viễn. Hủy trong mục Đăng ký của tài khoản Apple trước gia hạn; gỡ ứng dụng không hủy. Khôi phục mua bằng tài khoản đã mua. Yêu cầu hoàn tiền từ Apple theo quy tắc và quyền luật định; không hạn chế biện pháp bảo vệ người tiêu dùng.
 

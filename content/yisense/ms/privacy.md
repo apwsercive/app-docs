@@ -12,7 +12,7 @@ YiSense menyediakan pembelajaran I Ching, renungan harian, pembentukan heksagram
 
 ## Catatan dan foto {#2}
 
-Anda mengisi nama, diri sendiri/orang lain, soalan, renungan, kategori, tafsiran manusia, maklum balas, status hasil, tag, nota dan foto. Pastikan anda berhak merekodkan maklumat orang lain. Status hasil ialah pilihan anda, bukan keputusan aplikasi. Kamera hanya digunakan apabila anda memilih untuk mengambil foto dan memberikan kebenaran; pemilih foto hanya memberikan imej yang dipilih. Foto dikecilkan kepada sisi terpanjang1600 piksel dan dikod semula tanpa menyalin EXIF asal, tetapi kandungan peribadi dalam imej mungkin kekal.
+Anda mengisi nama, diri sendiri/orang lain, soalan, renungan, kategori, tafsiran manusia, maklum balas, status hasil, tag, nota dan foto. Pastikan anda berhak merekodkan maklumat orang lain. Status hasil ialah pilihan anda, bukan keputusan aplikasi. Kamera hanya digunakan apabila anda memilih untuk mengambil foto dan memberikan kebenaran; pemilih foto hanya memberikan imej yang dipilih. Foto dikecilkan kepada sisi terpanjang 1600 piksel dan dikod semula tanpa menyalin EXIF asal, tetapi kandungan peribadi dalam imej mungkin kekal.
 
 ## iCloud {#3}
 
