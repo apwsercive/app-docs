@@ -38,6 +38,108 @@
       "documents": "Documents",
       "apps": "Apps",
       "intro": "Choose an app and language to read its privacy policy, terms, and technical support information."
+    },
+    "ja": {
+      "label": "日本語",
+      "dir": "ltr",
+      "home": "文書センター",
+      "skip": "本文へ移動",
+      "contents": "目次",
+      "updated": "更新日",
+      "effective": "発効日",
+      "version": "バージョン",
+      "draft": "草案：未公開です。",
+      "contact": "お問い合わせ",
+      "operator": "運営者",
+      "pending": "確認待ち",
+      "documents": "文書",
+      "apps": "アプリ",
+      "intro": "アプリと言語を選んで文書をお読みください。"
+    },
+    "ko": {
+      "label": "한국어",
+      "dir": "ltr",
+      "home": "문서 센터",
+      "skip": "본문으로 이동",
+      "contents": "목차",
+      "updated": "업데이트",
+      "effective": "시행일",
+      "version": "버전",
+      "draft": "초안: 아직 정식 공개되지 않았습니다.",
+      "contact": "문의",
+      "operator": "운영자",
+      "pending": "확인 대기",
+      "documents": "문서",
+      "apps": "앱",
+      "intro": "앱과 언어를 선택해 문서를 읽으세요."
+    },
+    "vi": {
+      "label": "Tiếng Việt",
+      "dir": "ltr",
+      "home": "Trung tâm tài liệu",
+      "skip": "Đến nội dung",
+      "contents": "Mục lục",
+      "updated": "Cập nhật",
+      "effective": "Hiệu lực",
+      "version": "Phiên bản",
+      "draft": "Bản nháp: chưa phát hành chính thức.",
+      "contact": "Liên hệ",
+      "operator": "Đơn vị vận hành",
+      "pending": "Chờ xác nhận",
+      "documents": "Tài liệu",
+      "apps": "Ứng dụng",
+      "intro": "Chọn ứng dụng và ngôn ngữ để đọc tài liệu."
+    },
+    "ms": {
+      "label": "Bahasa Melayu",
+      "dir": "ltr",
+      "home": "Pusat dokumen",
+      "skip": "Langkau ke kandungan",
+      "contents": "Kandungan",
+      "updated": "Dikemas kini",
+      "effective": "Berkuat kuasa",
+      "version": "Versi",
+      "draft": "Draf: belum diterbitkan secara rasmi.",
+      "contact": "Hubungi kami",
+      "operator": "Pengendali",
+      "pending": "Menunggu pengesahan",
+      "documents": "Dokumen",
+      "apps": "Aplikasi",
+      "intro": "Pilih aplikasi dan bahasa untuk membaca dokumen."
+    },
+    "th": {
+      "label": "ไทย",
+      "dir": "ltr",
+      "home": "ศูนย์เอกสาร",
+      "skip": "ข้ามไปเนื้อหา",
+      "contents": "สารบัญ",
+      "updated": "ปรับปรุง",
+      "effective": "มีผล",
+      "version": "รุ่น",
+      "draft": "ฉบับร่าง: ยังไม่เผยแพร่อย่างเป็นทางการ",
+      "contact": "ติดต่อเรา",
+      "operator": "ผู้ดำเนินการ",
+      "pending": "รอยืนยัน",
+      "documents": "เอกสาร",
+      "apps": "แอป",
+      "intro": "เลือกแอปและภาษาเพื่ออ่านเอกสาร"
+    },
+    "en-SG": {
+      "label": "English (Singapore)",
+      "dir": "ltr",
+      "home": "Document center",
+      "skip": "Skip to content",
+      "contents": "Contents",
+      "updated": "Updated",
+      "effective": "Effective",
+      "version": "Version",
+      "draft": "Draft: not yet formally published.",
+      "contact": "Contact",
+      "operator": "Operator",
+      "pending": "Awaiting confirmation",
+      "documents": "Documents",
+      "apps": "Apps",
+      "intro": "Choose an app and language to read its privacy policy, terms, and technical support information."
     }
   },
   "apps": {
@@ -50,6 +152,24 @@
         "privacy",
         "terms",
         "support"
+      ]
+    },
+    "yisense": {
+      "names": {
+        "zh-Hans": "知心观易",
+        "en": "YiSense",
+        "ja": "YiSense",
+        "ko": "YiSense",
+        "vi": "YiSense",
+        "en-SG": "YiSense",
+        "ms": "YiSense",
+        "th": "YiSense"
+      },
+      "documents": [
+        "privacy",
+        "terms",
+        "support",
+        "sources"
       ]
     }
   }
