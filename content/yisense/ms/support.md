@@ -1,6 +1,6 @@
 ---
 version: "1.0"
-updated: 2026-11-03
+updated: 2026-11-05
 status: draft
 ---
 
@@ -16,4 +16,4 @@ Semak log masuk iCloud, rangkaian, ruang dan tetapan. Buat sandaran sebelum mema
 
 ## Kaedah dan bahasa {#3}
 
-Semak kaedah, tarikh dan zon waktu. Masukkan tiga integer1–1,000,000; jika semua kosong, nombor1–999 dijana automatik. Teks klasik kekal dalam bahasa Cina; terjemahan dokumen tidak bermakna antara muka aplikasi menyokong bahasa tersebut. Tiada pembelian untuk dipulihkan pada masa ini. Hantar pembetulan sumber, kaedah atau terjemahan melalui e-mel.
+Semak kaedah, tarikh dan zon waktu. Masukkan tiga integer1–1,000,000; jika semua kosong, nombor1–999 dijana automatik. Teks klasik kekal dalam bahasa Cina; terjemahan dokumen tidak bermakna antara muka aplikasi menyokong bahasa tersebut. Jika keahlian tiada, pulihkan pembelian dengan akaun Apple asal. Urus pembatalan berasingan dalam Langganan Apple. Hantar pembetulan sumber, kaedah atau terjemahan melalui e-mel.

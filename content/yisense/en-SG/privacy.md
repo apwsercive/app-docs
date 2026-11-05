@@ -1,6 +1,6 @@
 ---
 version: "1.0"
-updated: 2026-11-03
+updated: 2026-11-05
 status: draft
 ---
 
@@ -55,3 +55,9 @@ See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/) for Apple's s
 This documentation website uses GitHub Pages, with no advertising, analytics scripts, or tracking cookies. GitHub still logs visitor IP addresses and basic access data for security; see the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). CloudKit synchronisation and cloud photo downloads may use the network independently of opening external links.
 
 We retain support emails only as needed to resolve requests, follow up, and meet applicable legal obligations, then delete or anonymise them. Email [apw_service@163.com](mailto:apw_service@163.com) to request access, correction, or deletion of information actually held by the developer. We verify and handle requests under applicable law.
+
+## New records, sharing and membership data {#current-features}
+
+Reflections can include a title, mood and image. These fields sync through private iCloud and are included in JSON exports. Mood is a self-selected label, not a psychological diagnosis. Share images and selected backgrounds are processed on-device; recipients handle content after you choose to share. Check for private questions, names, reflections or photos. JSON contains Base64 images; Base64 is not encryption. First-launch date and per-date, per-action free-use counts are stored locally for membership prompts and quota checks, not uploaded as behavioural analytics. Apple StoreKit handles purchases, restoration and verified entitlements. The app reads verified product, transaction and entitlement information, not card numbers, complete payment details or Apple passwords, and does not upload private records to verify membership. Apple handles account and transaction data under its policies.
+
+[Apple App Store](https://www.apple.com/legal/privacy/data/en/app-store/) · [Apple Subscriptions](https://support.apple.com/118428) · [Apple Refunds](https://reportaproblem.apple.com/)

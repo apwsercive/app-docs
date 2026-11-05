@@ -1,6 +1,6 @@
 ---
 version: "1.0"
-updated: 2026-11-03
+updated: 2026-11-05
 status: draft
 ---
 
@@ -8,7 +8,7 @@ status: draft
 
 ## Phạm vi và xử lý trên thiết bị {#1}
 
-YiSense cung cấp học Kinh Dịch, suy ngẫm hằng ngày, lập quẻ, ghi chép, ảnh đính kèm, đồng bộ iCloud và xuất JSON. Không có tài khoản của nhà phát triển, quảng cáo, phân tích hành vi, theo dõi liên ứng dụng, trò chuyện AI hay mua trong ứng dụng. Câu hỏi, số nhập, kết quả đồng xu, ngày giờ, múi giờ, quẻ và phiên bản thuật toán được xử lý trên thiết bị. Ngôn ngữ, giao diện, chủ đề và rung lưu cục bộ. Không yêu cầu vị trí, danh bạ hay micrô.
+YiSense cung cấp học Kinh Dịch, suy ngẫm hằng ngày, lập quẻ, ghi chép, ảnh đính kèm, đồng bộ iCloud và xuất JSON. Không có tài khoản của nhà phát triển, quảng cáo, phân tích hành vi, theo dõi liên ứng dụng hay trò chuyện AI. Câu hỏi, số nhập, kết quả đồng xu, ngày giờ, múi giờ, quẻ và phiên bản thuật toán được xử lý trên thiết bị. Ngôn ngữ, giao diện, chủ đề và rung lưu cục bộ. Không yêu cầu vị trí, danh bạ hay micrô.
 
 ## Ghi chép và ảnh {#2}
 
@@ -27,3 +27,9 @@ JSON được xuất đến nơi lưu do bạn chọn, theo chính sách của n
 Liên hệ [apw_service@163.com](mailto:apw_service@163.com). Email, nội dung và tệp đính kèm chỉ lưu khi cần xử lý, liên lạc và tuân thủ pháp luật, sau đó xóa hoặc ẩn danh. Bạn có thể yêu cầu truy cập, sửa hoặc xóa thông tin nhà phát triển thực sự giữ; chúng tôi xác minh cần thiết và xử lý theo luật áp dụng. Không gửi bí mật không cần thiết. Bảo vệ thiết bị; trẻ vị thành niên nên có người giám hộ hướng dẫn. Khi cách xử lý thay đổi, chúng tôi cập nhật tài liệu và cung cấp thông báo, xin phép khi cần.
 
 [Apple](https://www.apple.com/legal/privacy/) · [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+
+## Bản ghi, chia sẻ và hội viên {#current-features}
+
+Tiêu đề, tâm trạng và ảnh của suy ngẫm cũng đồng bộ vào iCloud riêng và có trong JSON. Tâm trạng là nhãn tự chọn, không phải chẩn đoán. Ảnh chia sẻ và nền chọn được xử lý trên thiết bị; người nhận xử lý sau khi bạn chia sẻ. Kiểm tra tên, câu hỏi và ảnh riêng tư. Base64 không phải mã hóa bảo mật. Ngày mở đầu tiên và số lượt miễn phí theo ngày, thao tác lưu cục bộ để hiện hội viên và kiểm tra hạn mức, không gửi làm phân tích hành vi. Apple StoreKit xử lý mua, khôi phục và xác minh quyền. Ứng dụng đọc sản phẩm, giao dịch và quyền đã xác minh, không nhận số thẻ, đầy đủ chi tiết thanh toán hay mật khẩu Apple, không tải bản ghi riêng để xác minh hội viên. Apple xử lý giao dịch theo chính sách của mình.
+
+[Apple App Store](https://www.apple.com/legal/privacy/data/en/app-store/) · [Apple Subscriptions](https://support.apple.com/118428) · [Apple Refunds](https://reportaproblem.apple.com/)

@@ -1,6 +1,6 @@
 ---
 version: "1.0"
-updated: 2026-11-03
+updated: 2026-11-05
 status: draft
 ---
 
@@ -8,7 +8,7 @@ status: draft
 
 ## Dịch vụ và quyền sử dụng {#1}
 
-Đọc điều khoản và chính sách quyền riêng tư trước khi dùng. Bạn được dùng trên thiết bị hỗ trợ do mình sở hữu hoặc kiểm soát theo quy tắc App Store. Có nội dung Kinh Dịch, âm dương ngũ hành, can chi, lịch, ba cách lập quẻ, ghi chép, đồng bộ và xuất. Hiện không có hội viên hay mua trong ứng dụng; không hứa tính năng tương lai, miễn phí hoặc hoạt động vĩnh viễn.
+Đọc điều khoản và chính sách quyền riêng tư trước khi dùng. Bạn được dùng trên thiết bị hỗ trợ do mình sở hữu hoặc kiểm soát theo quy tắc App Store. Có nội dung Kinh Dịch, âm dương ngũ hành, can chi, lịch, ba cách lập quẻ, ghi chép, đồng bộ và xuất.
 
 ## Nội dung văn hóa {#2}
 
@@ -21,3 +21,13 @@ Bạn giữ quyền với sáng tác của mình. Cần được phép ghi và c
 ## Khả dụng và trách nhiệm {#4}
 
 iCloud phụ thuộc Apple; không bảo đảm đồng bộ tức thì hoặc không mất dữ liệu. Hãy sao lưu, đề phòng bản ghi trùng khi ngoại tuyến và lỗi thiết bị. Ứng dụng cung cấp theo trạng thái hiện có, không bảo đảm hoàn toàn chính xác, liên tục hay phù hợp mục đích cụ thể. Trách nhiệm và biện pháp khắc phục theo luật áp dụng; không loại trừ trách nhiệm không thể loại trừ hay quyền bắt buộc của người tiêu dùng. Khi thay đổi, tài liệu được cập nhật. Báo sai khác bản dịch hoặc câu hỏi tới [apw_service@163.com](mailto:apw_service@163.com).
+
+## Hạn mức và mua hội viên {#current-features}
+
+Theo ngày lịch địa phương của thiết bị: lập quẻ3 lượt/ngày, tạo hoặc sửa suy ngẫm tổng1 lượt/ngày, lưu bản ghi quẻ2 lượt và sửa1 lượt/ngày. Nền chia sẻ tùy chọn cần hội viên. Việc tính lượt hủy hoặc lỗi tùy luồng thao tác; xem thông báo trong ứng dụng. Hội viên hợp lệ bỏ các giới hạn này và dùng nền tùy chọn theo mô tả lúc mua.
+
+Có thể có gói tháng, năm (kể cả năm ưu đãi) tự gia hạn và gói trọn đời mua một lần. Giá, tiền tệ, điều kiện và gia hạn theo màn hình ứng dụng và xác nhận Apple. Trọn đời không bảo đảm hoạt động vĩnh viễn. Hủy trong mục Đăng ký của tài khoản Apple trước gia hạn; gỡ ứng dụng không hủy. Khôi phục mua bằng tài khoản đã mua. Yêu cầu hoàn tiền từ Apple theo quy tắc và quyền luật định; không hạn chế biện pháp bảo vệ người tiêu dùng.
+
+Tiêu đề, tâm trạng, ảnh và trạng thái kết quả là ghi chép cá nhân, không chẩn đoán hay chứng nhận. Kiểm tra trước khi chia sẻ và có quyền cần thiết. JSON chứa văn bản và ảnh đã xử lý, không được mã hóa bảo mật và không hứa nhập khôi phục.
+
+[Apple App Store](https://www.apple.com/legal/privacy/data/en/app-store/) · [Apple Subscriptions](https://support.apple.com/118428) · [Apple Refunds](https://reportaproblem.apple.com/)

@@ -1,6 +1,6 @@
 ---
 version: "1.0"
-updated: 2026-11-03
+updated: 2026-11-05
 status: draft
 ---
 
@@ -20,4 +20,4 @@ The camera requires your action and permission; the photo picker provides select
 
 ## Casting and reading {#4}
 
-Check the method, inputs, device date and time zone. Number casting accepts three integers from 1 to 1,000,000. Methods and traditions differ. Daily reading cycles by date and is not a personal prediction. Classical texts remain in Chinese; document translations do not mean the app interface supports those languages. There are currently no memberships or in-app purchases to restore. Report source, rule or translation issues by email.
+Check the method, inputs, device date and time zone. Number casting accepts three integers from 1 to 1,000,000. Methods and traditions differ. Daily reading cycles by date and is not a personal prediction. Classical texts remain in Chinese; document translations do not mean the app interface supports those languages. If membership is missing, use Restore Purchases with the purchasing Apple account. Manage cancellation separately in Apple account Subscriptions. Report source, rule or translation issues by email.

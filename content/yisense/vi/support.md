@@ -1,6 +1,6 @@
 ---
 version: "1.0"
-updated: 2026-11-03
+updated: 2026-11-05
 status: draft
 ---
 
@@ -16,4 +16,4 @@ Kiểm tra đăng nhập iCloud, mạng, dung lượng và cài đặt. Sao lưu
 
 ## Lập quẻ và ngôn ngữ {#3}
 
-Kiểm tra cách lập quẻ, ngày giờ, múi giờ. Nhập ba số nguyên1–1.000.000; để trống cả ba thì tạo ngẫu nhiên1–999. Cổ văn giữ tiếng Trung; bản dịch tài liệu không đồng nghĩa giao diện đã hỗ trợ ngôn ngữ đó. Hiện không có giao dịch trong ứng dụng để khôi phục. Gửi sửa nguồn, quy tắc hoặc bản dịch qua email.
+Kiểm tra cách lập quẻ, ngày giờ, múi giờ. Nhập ba số nguyên1–1.000.000; để trống cả ba thì tạo ngẫu nhiên1–999. Cổ văn giữ tiếng Trung; bản dịch tài liệu không đồng nghĩa giao diện đã hỗ trợ ngôn ngữ đó. Nếu thiếu hội viên, khôi phục mua bằng tài khoản Apple đã mua. Hủy riêng trong mục Đăng ký của Apple. Gửi sửa nguồn, quy tắc hoặc bản dịch qua email.

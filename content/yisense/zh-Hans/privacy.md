@@ -1,6 +1,6 @@
 ---
 version: "1.0"
-updated: 2026-11-03
+updated: 2026-11-05
 status: draft
 ---
 
@@ -55,3 +55,9 @@ Apple 服务详情见 [Apple 隐私政策](https://www.apple.com/legal/privacy/)
 本在线文档站由 GitHub Pages 托管，没有广告、分析脚本或追踪 Cookie；GitHub 仍会为安全记录访问者 IP 等基础访问数据，详见 [GitHub 隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)。App 的 CloudKit 同步、云端照片下载等联网行为不以打开外部链接为前提。
 
 邮件内容仅在处理请求、后续沟通及履行适用法律义务所需期间保留，不再需要时删除或匿名化。您可通过 [apw_service@163.com](mailto:apw_service@163.com) 请求访问、更正或删除开发者实际持有的信息；我们会进行必要核验并按适用法律处理。
+
+## 新增记录、分享与会员数据 {#current-features}
+
+观易感悟可保存标题、心情和图片，这些内容与其他记录一样通过私人 iCloud 同步，并包含在 JSON 导出中。心情是自选标签，不是心理诊断。分享图片及自选背景在设备上处理；您主动分享后由接收方处理，图片可能包含问题、姓名、感悟或照片，请先核对。JSON 包含 Base64 图片，Base64 不是加密。App 在本机保存首次启动日期和按日期、操作类型统计的免费使用次数，用于启动会员提示与额度判断，不用于行为分析上传。购买、恢复与会员权益验证使用 Apple StoreKit；App 读取已验证的商品、交易和有效权益，不获取银行卡号、完整付款资料或 Apple 密码，也不为验权上传私人记录。Apple 按其政策处理账户与交易数据。
+
+[Apple App Store](https://www.apple.com/legal/privacy/data/en/app-store/) · [Apple Subscriptions](https://support.apple.com/118428) · [Apple Refunds](https://reportaproblem.apple.com/)
