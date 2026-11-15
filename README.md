@@ -1,6 +1,6 @@
 # 多 App 文档中心（GitHub Pages）
 
-独立的静态文档站源码，使用 Python 3.9+；Markdown 解析器已固定版本随站点放在 `vendor/`，无需额外安装或联网构建。第三方许可证见 [THIRD_PARTY.md](THIRD_PARTY.md)。中英文协议按孔明工具当前代码整理，联系邮箱为 apw_service@163.com；协议版本为 1.0，不展示生效日期，按要求不展示运营主体；主要发行地区待确认。当前内容标注草稿，不应作为正式上架协议。
+独立的静态文档站源码，使用 Python 3.9+；Markdown 解析器已固定版本随站点放在 `vendor/`，无需额外安装或联网构建。第三方许可证见 [THIRD_PARTY.md](THIRD_PARTY.md)。中英文协议按三个臭皮匠当前代码整理，联系邮箱为 apw_service@163.com；协议版本为 1.0，不展示生效日期，按要求不展示运营主体；主要发行地区待确认。当前内容标注草稿，不应作为正式上架协议。
 
 此目录可直接复制为独立 GitHub 仓库的根目录，建议仓库名 `app-docs`。不要把 iOS 工程或其他 App 的私有源码上传到公开协议仓库。原 `sites/kongming-legal/` 草稿保持原样。
 
@@ -13,7 +13,7 @@
 | 文档中心 | `/` |
 | 中文应用列表 | `/zh-Hans/` |
 | English app list | `/en/` |
-| 孔明工具语言选择 | `/kongming/` |
+| 三个臭皮匠语言选择 | `/kongming/` |
 | 中文隐私协议 | `/kongming/zh-Hans/privacy/` |
 | 中文服务条款 | `/kongming/zh-Hans/terms/` |
 | English Privacy Policy | `/kongming/en/privacy/` |
@@ -47,7 +47,7 @@ python3 -m http.server 8000 --directory dist
 
 ## 新 App、语言与文档
 
-- 新 App：在 `site.json.apps` 增加稳定 ID、各语言显示名，在 `content/<app-id>/<locale>/` 添加 Markdown。`documents` 可省略，或用来指定已有文档的显示顺序。不要直接套用孔明工具的数据处理承诺，每个 App 独立核实。
+- 新 App：在 `site.json.apps` 增加稳定 ID、各语言显示名，在 `content/<app-id>/<locale>/` 添加 Markdown。`documents` 可省略，或用来指定已有文档的显示顺序。不要直接套用三个臭皮匠的数据处理承诺，每个 App 独立核实。
 - 新语言：在 `site.json.locales` 添加 BCP 47 语言标记、语言自称、`dir` 和全部导航文案；在 App 的 `names` 添加翻译，在对应语言目录添加文档。生成器支持 `rtl` 和 CSS 逻辑方向。
 - 新文档：例如 `support.md`、`faq.md`、`licenses.md`；直接放入 `content/<app-id>/<locale>/`，构建时自动发现并列入目录，不需登记文档列表。
 - 兼容旧 JSON 格式，但同一路径不可同时保留同名 `.md` 和 `.json`，避免误读旧文案。
@@ -128,7 +128,7 @@ git push origin main
 
 ## YiSense 文档
 
-YiSense（知心观易）已登记到文档站，四类文档为 `privacy`（隐私）、`terms`（服务条款）、`support`（技术支持）、`sources`（内容来源与起卦说明）。每类均有以下八个语言版本，地址为 `/yisense/<locale>/<document>/`（项目型 Pages 前加 `/app-docs`）。
+YiSense（今日观易）已登记到文档站，四类文档为 `privacy`（隐私）、`terms`（服务条款）、`support`（技术支持）、`sources`（内容来源与起卦说明）。每类均有以下八个语言版本，地址为 `/yisense/<locale>/<document>/`（项目型 Pages 前加 `/app-docs`）。
 
 | 语言标记 | 语言／主要受众 |
 | --- | --- |

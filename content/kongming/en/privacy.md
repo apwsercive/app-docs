@@ -8,7 +8,7 @@ status: draft
 
 ## Scope {#section-1}
 
-This Privacy Policy covers the Kongming Tools iOS app, including calculators, scanning, image and document conversion, date tools, watermark photography, and membership purchases and restoration. It describes the current version. See the contact section for contact details.
+This Privacy Policy covers the TrioX iOS app, including calculators, scanning, image and document conversion, date tools, watermark photography, and membership purchases and restoration. It describes the current version. See the contact section for contact details.
 
 ## On-device processing and collection {#section-2}
 

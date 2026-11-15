@@ -145,8 +145,8 @@
   "apps": {
     "kongming": {
       "names": {
-        "zh-Hans": "孔明工具",
-        "en": "Kongming Tools"
+        "zh-Hans": "三个臭皮匠",
+        "en": "TrioX"
       },
       "documents": [
         "privacy",
@@ -156,14 +156,14 @@
     },
     "yisense": {
       "names": {
-        "zh-Hans": "知心观易",
+        "zh-Hans": "今日观易",
         "en": "YiSense",
         "ja": "YiSense",
         "ko": "YiSense",
         "vi": "YiSense",
         "ms": "YiSense",
         "th": "YiSense",
-        "zh-Hant": "知心觀易"
+        "zh-Hant": "今日觀易"
       },
       "documents": [
         "privacy",

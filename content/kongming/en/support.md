@@ -6,7 +6,7 @@ status: draft
 
 # Technical Support
 
-Kongming Tools offers everyday calculators, code scanning and OCR, image processing, document conversion, a watermark camera, date tools, and unit conversion. Contact us if you need help or have suggestions.
+TrioX offers everyday calculators, code scanning and OCR, image processing, document conversion, a watermark camera, date tools, and unit conversion. Contact us if you need help or have suggestions.
 
 ## Contact support {#support-email}
 

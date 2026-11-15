@@ -8,7 +8,7 @@ status: draft
 
 ## Acceptance and scope {#section-1}
 
-These Terms apply to the Kongming Tools iOS app. See the contact section for contact details. Read these Terms and the Privacy Policy before using the app. If you disagree, stop using the relevant services. These Terms do not remove consumer rights provided by applicable law.
+These Terms apply to the TrioX iOS app. See the contact section for contact details. Read these Terms and the Privacy Policy before using the app. If you disagree, stop using the relevant services. These Terms do not remove consumer rights provided by applicable law.
 
 ## Tools and license {#section-2}
 
