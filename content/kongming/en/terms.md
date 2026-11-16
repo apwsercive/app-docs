@@ -1,6 +1,6 @@
 ---
 version: "1.0"
-updated: 2026-10-29
+updated: 2026-11-15
 status: draft
 ---
 
@@ -26,7 +26,7 @@ Watermark times and places come from the device clock, location results, or user
 
 ## Free tools and memberships {#section-4}
 
-Tools in the current version remain usable for free. Membership supports continued development. Available products, prices, currency, duration, eligibility, and offers are governed by the actual in-app display and Apple purchase confirmation. Membership does not promise exclusive features that have not been stated.
+Some tools are available for free. Creating PDFs from scans, converting documents, turning Live Photos into GIFs, and saving or sharing watermarked photos require membership. Available products, prices, currency, duration, eligibility, and offers are shown in the app and Apple’s purchase confirmation.
 
 The app may offer monthly and annual auto-renewable memberships and a one-time lifetime membership. Any discounted annual offer and subsequent renewal terms are shown in Apple’s purchase confirmation; an offer name does not promise a permanent discount. Lifetime membership is a one-time membership purchase, not a guarantee of perpetual operation of the app or an external service.
 
@@ -62,7 +62,7 @@ Please first describe issues through the contact channel below. Unresolved matte
 
 ## Translations {#translations}
 
-The Chinese and English versions are intended to have the same meaning. Please report translation differences using the contact email. Interpretation and resolution remain subject to applicable law and mandatory consumer rights.
+All language versions are intended to have the same meaning. Please report translation differences using the contact email. Interpretation and resolution remain subject to applicable law and mandatory consumer rights.
 
 ## Document conversion and sharing precautions {#conversion}
 
