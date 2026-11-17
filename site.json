@@ -210,6 +210,17 @@
         "support",
         "sources"
       ]
+    },
+    "moodwatch": {
+      "names": {
+        "zh-Hans": "MoodWatch",
+        "en": "MoodWatch"
+      },
+      "documents": [
+        "privacy",
+        "terms",
+        "support"
+      ]
     }
   }
 }

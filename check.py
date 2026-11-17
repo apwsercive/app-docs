@@ -98,11 +98,16 @@ def run():
         config["locales"]["ar"] = dict(config["locales"]["en"], label="العربية", dir="rtl")
         config["apps"]["example-app"] = {"names":{"ar":"Example"}, "documents":["support"]}
         # Convert fixtures to legacy JSON to exercise backward compatibility too.
-        for path in (work/"content").rglob("*.md"):
+        markdown_sources = list((work/"content").rglob("*.md"))
+        for path in markdown_sources:
             doc = module.read_markdown(path, work/"content", "")
+            # Keep the legacy fixture independent of Markdown links rendered for a specific base path.
+            doc.pop("introduction_html", None)
             for section in doc["sections"]:
+                section.pop("html", None)
                 section["paragraphs"] = []
             path.with_suffix(".json").write_text(json.dumps(doc))
+        for path in markdown_sources:
             path.unlink()
         source = json.loads((work/"content/kongming/en/privacy.json").read_text())
         source["title"] = "Support"
